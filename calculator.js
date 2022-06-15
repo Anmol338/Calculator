@@ -2,10 +2,6 @@ function clearScreen() {
     document.getElementById("result").value = "";
 }
 
-function backspace() {
-    document.getElementById("result").value="Yesko function ko kam timro dhanyabad";
-}
-
 
 function display(value) {
     document.getElementById("result").value += value;
